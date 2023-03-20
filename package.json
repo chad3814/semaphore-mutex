@@ -1,0 +1,25 @@
+{
+  "name": "semaphore-mutex",
+  "version": "1.0.0",
+  "description": "A basic async semaphore implementation",
+  "main": "index.js",
+  "repository": "git@github.com:chad3814/semaphore-mutex.git",
+  "author": {
+    "name": "Chris Kirmse",
+    "email": "ckirmse@yahoo.com"
+  },
+  "contributors": [
+    {
+      "name": "Chad Walker",
+      "email": "chad@cwalker.dev"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Chad Walker",
+      "email": "chad@cwalker.dev"
+    }
+  ],
+  "license": "MIT",
+  "type": "module"
+}
