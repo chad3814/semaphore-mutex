@@ -1,4 +1,4 @@
-import Semaphore from "./semaphore";
-import Mutex from "./mutex";
+import Semaphore from "./semaphore.js";
+import Mutex from "./mutex.js";
 
 export {Semaphore, Mutex};
