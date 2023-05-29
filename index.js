@@ -1,4 +1,5 @@
-import Semaphore from "./semaphore.js";
-import Mutex from "./mutex.js";
+import _Semaphore from "./semaphore.js";
+import _Mutex from "./mutex.js";
 
-export default {Semaphore, Mutex};
+export const Semaphore = _Semaphore;
+export const Mutex = _Mutex;
