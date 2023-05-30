@@ -2,7 +2,7 @@
   "name": "semaphore-mutex",
   "version": "1.0.6",
   "description": "A basic async semaphore implementation",
-  "main": "index.js",
+  "main": "built/semaphore.js",
   "repository": "git@github.com:chad3814/semaphore-mutex.git",
   "author": {
     "name": "Chris Kirmse",
