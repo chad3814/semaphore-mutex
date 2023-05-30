@@ -2,7 +2,7 @@
  * (c) Chris Kirmse, Chad Walker
  */
 
-import Semaphore from './semaphore.js';
+import Semaphore from './semaphore';
 
 class Mutex extends Semaphore {
   constructor() {

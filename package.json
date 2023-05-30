@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "A basic async semaphore implementation",
   "main": "built/semaphore.js",
+  "types": "built/semaphore.d.ts",
   "repository": "git@github.com:chad3814/semaphore-mutex.git",
   "author": {
     "name": "Chris Kirmse",
@@ -20,6 +21,22 @@
       "email": "chad@cwalker.dev"
     }
   ],
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepublishOnly": "yarn lint",
+    "preversion": "yarn lint",
+    "version": "yarn format && git add -A src"
+  },
   "license": "MIT",
-  "type": "module"
+  "files": ["built/**/*"],
+  "devDependencies": {
+    "@types/setimmediate": "^1.0.2",
+    "prettier": "^2.8.8",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.0.4"
+  }
 }
